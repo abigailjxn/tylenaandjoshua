@@ -1,24 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Link to UI Kit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.24/css/uikit.min.css" />
-   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.24/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Tylena and Joshua</title>
-</head>
-<body>
-    
-    
+  </head>
+  <body>
 
-    
+    <!-- <div class="uk-container"> -->
+      <!-- Nav Hamburger -->
+      <!-- <a class="uk-margin-small-right" uk-icon="menu" uk-toggle="target: #offcanvas-nav-primary" uk-sticky></a> -->
+
+    <div
+      class="uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-position-relative"
+      data-src="./assets/images/test.jpg"
+      uk-img
+    >
+      <h1>tylena + joshua</h1>
+      <h2>ARE GETTING MARRIED</h2>
+      <h3>NASHVILLE, TN</h3>
+      <h3>JUNE ?, 2019</h3>
+      
+      <div class="uk-position-top-right uk-overlay"><a class="uk-margin-small-right" uk-icon="menu" uk-toggle="target: #sidebarnavigation" uk-sticky></a></div>
+
+      <!-- Make into slideshow of engagement photos? -->
+      <!--
+        <div class="uk-position-center-right  uk-position-small">
+            <ul class="uk-dotnav uk-dotnav-vertical">
+                <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+            </ul>
+        </div>
+      -->
+
+      
+   
+
+
+      <div id="sidebarnavigation" uk-offcanvas="flip: true overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+          <ul
+            class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical"
+          >
+            <li class="uk-active"><a href="#">Active</a></li>
+            <li class="uk-parent">
+              <a href="#">Parent</a>
+              <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+              </ul>
+            </li>
+            <li class="uk-nav-header">Header</li>
+            <li>
+              <a href="#"
+                ><span
+                  class="uk-margin-small-right"
+                  uk-icon="icon: table"
+                ></span>
+                Item</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span
+                  class="uk-margin-small-right"
+                  uk-icon="icon: thumbnails"
+                ></span>
+                Item</a
+              >
+            </li>
+            <li class="uk-nav-divider"></li>
+            <li>
+              <a href="#"
+                ><span
+                  class="uk-margin-small-right"
+                  uk-icon="icon: trash"
+                ></span>
+                Item</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+<!-- </div> -->
 
     <!-- Link to JQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <!-- Link to UIKit JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.24/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.24/js/uikit-icons.min.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
