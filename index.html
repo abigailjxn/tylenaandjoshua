@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+
+
+      <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Link to UI Kit CSS -->
@@ -21,6 +23,7 @@
     <div
       class="uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-position-relative"
       data-src="./assets/images/test.jpg"
+      uk-parallax="bgy: -200"
       uk-img
     >
 
@@ -29,7 +32,7 @@
 
     <!-- HERO TEXT -->
     <div class="uk-container uk-text-center">
-      <h1 class="uk-heading-primary">tylena + joshua</h1>
+      <h1 class="uk-heading-primary" uk-parallax="opacity: 1,0; y: -10,0; scale: 1.5,1; viewport: 0.5;">tylena + joshua</h1>
       <!-- <h2>ARE GETTING MARRIED</h2> -->
       <h3>NASHVILLE, TN</h3>
       <h3>JUNE ?, 2019</h3>
@@ -82,30 +85,30 @@
     </nav>
 
     <!-- THE COUPLE -->
-    <div class="container">
-      <h1 class="uk-text-center" id="thecouple">The Couple</h1>
-      <section uk-grid>
-          <div class="uk-child-width-1-2@m">
+    <div class="container uk-text-center" uk-parralax="background-color: white, #829F9D">
+      <h1 id="thecouple">The Couple</h1>
+      <section class="uk-child-width-1-2@m uk-grid-large" uk-grid>
+          <div >
               <div>
-                  <div class="uk-card uk-card-default">
+                  <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-left">
                       <div class="uk-card-media-top">
                           <img src="./assets/images/test.jpg" alt="" uk-img>
                       </div>
                       <div class="uk-card-body">
-                          <h3 class="uk-card-title">Media Top</h3>
+                          <h3 class="uk-card-title">Tylena</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                       </div>
                   </div>
               </div>
             </div>
-            <div class="uk-child-width-1-2@m">
+            <div>
                 <div>
-                    <div class="uk-card uk-card-default">
+                    <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-right">
                         <div class="uk-card-media-top">
                             <img src="./assets/images/test.jpg" alt="" uk-img>
                         </div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Media Top</h3>
+                            <h3 class="uk-card-title">Joshua</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
@@ -116,6 +119,28 @@
         <img data-src="./assets/images/test.jpg" uk-img> -->
       </section>
         <!-- Photo align right and left of ty and josh, text underneath -->
+        <div>
+  
+          <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+  
+              <ul class="uk-slideshow-items">
+                  <li>
+                      <img src="./assets/images/test.jpg" alt="" uk-cover>
+                  </li>
+                  <li>
+                      <img src="./assets/images/test-1.jpg" alt="" uk-cover>
+                  </li>
+                  <li>
+                      <img src="./assets/images/test-2.jpg" alt="" uk-cover>
+                  </li>
+              </ul>
+  
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+  
+          </div>
+  
+      </div>
         <!-- gallery of engagement photos -->
     </div>
 
