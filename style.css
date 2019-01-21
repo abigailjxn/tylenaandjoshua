@@ -19,6 +19,10 @@ p {
   z-index: -1;
 }
 
+#bridalparty-img {
+    width: auto; height: 100%;
+}
+
 #ashley-name {
   bottom: -1em;
   left: 3em;
