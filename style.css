@@ -1,24 +1,66 @@
+h1,
+h2,
+h3,
+.countdown {
+  font-family: whitman-display-compressed, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-family: "Thasadith", sans-serif;
+}
+
+.maid-of-honor {
+  width: 15em;
+  height: 15em;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#ashley-name {
+  bottom: -1em;
+  left: 3em;
+}
+#ashley-last {
+  bottom: -1em;
+  left: 5em;
+}
+#ashley-p {
+  margin-left: 30em;
+}
+
 /* COUNTDOWN  */
 /* /////Countdown JS by https://github.com/fionnachan/countdownJS///// */
 .countdown {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 10px 20px;
-    border: 1px solid black;
-  }
-  
-  .countdown .day, .countdown .hour, .countdown .min, .countdown .sec {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .countdown .day .num, .countdown .hour .num, .countdown .min .num, .countdown .sec .num {
-    display: block;
-    font-size: 40px;
-  }
-  
-  .countdown .day .word, .countdown .hour .word, .countdown .min .word, .countdown .sec .word {
-    display: block;
-    font-size: 20px;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.countdown .day,
+.countdown .hour,
+.countdown .min,
+.countdown .sec {
+  padding: 20px;
+  text-align: center;
+}
+
+.countdown .day .num,
+.countdown .hour .num,
+.countdown .min .num,
+.countdown .sec .num {
+  display: block;
+  font-size: 40px;
+}
+
+.countdown .day .word,
+.countdown .hour .word,
+.countdown .min .word,
+.countdown .sec .word {
+  display: block;
+  font-size: 20px;
+}
