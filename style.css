@@ -1,10 +1,33 @@
 h1,
 h2,
 h3,
+h4,
+a,
 .countdown {
   font-family: whitman-display-compressed, serif;
   font-weight: 300;
   font-style: normal;
+}
+
+#tylenaandjoshua {
+  font-size: 100px;
+}
+
+#hero-location {
+  margin: -.4em;
+}
+
+#rsvp-btn {
+  border-radius: 1em;
+  font-family: "Thasadith", sans-serif;
+}
+
+h1, h2, h3 {
+  font-size: 4em;
+}
+
+#tylena-name, #joshua-name {
+  font-size: 4em;
 }
 
 p {
@@ -12,11 +35,11 @@ p {
 }
 
 .maid-of-honor {
-  width: 15em;
-  height: 15em;
+  width: 20em;
+  height: 20em;
   overflow: hidden;
   border-radius: 50%;
-  z-index: -1;
+  z-index: -100;
 }
 
 #bridalparty-img {
@@ -29,7 +52,7 @@ p {
 }
 #ashley-last {
   bottom: -1em;
-  left: 5em;
+  left: 5.3em;
 }
 #ashley-p {
   margin-left: 30em;

@@ -34,9 +34,9 @@
 
     <!-- HERO TEXT -->
     <div class="uk-container uk-text-center">
-      <h1 class="uk-heading-primary" uk-parallax="opacity: 1,0; y: -10,0; scale: 1.5,1; viewport: 0.5;">tylena + joshua</h1>
+      <h1 id="tylenaandjoshua" class="uk-heading-primary" uk-parallax="opacity: 1,0; y: -10,0; scale: 1.5,1; viewport: 0.5;">tylena + joshua</h1>
       <!-- <h2>ARE GETTING MARRIED</h2> -->
-      <h3>NASHVILLE, TN</h3>
+      <h3 id="hero-location">NASHVILLE, TN</h3>
       <h3>JUNE 15, 2019</h3>
       <button id="rsvp-btn" class="uk-button-default uk-button-large uk-text-large">RSVP</button>
     </div>
@@ -80,12 +80,12 @@
       <section class="uk-child-width-1-2@m uk-grid-large" uk-grid>
           <div >
               <div>
-                  <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-left">
+                  <div class="uk-card uk-card-hover" uk-scrollspy="cls: uk-animation-slide-left">
                       <div class="uk-card-media-top">
-                          <img src="./assets/images/test.jpg" alt="" uk-img>
+                          <img class="uk-border-circle" src="./assets/images/test.jpg" alt="" uk-img>
                       </div>
                       <div class="uk-card-body">
-                          <h3 class="uk-card-title">Tylena</h3>
+                          <h3 id="tylena-name" class="uk-card-title">Tylena</h3>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                       </div>
                   </div>
@@ -93,12 +93,12 @@
             </div>
             <div>
                 <div>
-                    <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-slide-right">
+                    <div class="uk-card uk-card-hover" uk-scrollspy="cls: uk-animation-slide-right">
                         <div class="uk-card-media-top">
-                            <img src="./assets/images/test.jpg" alt="" uk-img>
+                            <img class="uk-border-circle" src="./assets/images/test.jpg" alt="" uk-img>
                         </div>
                         <div class="uk-card-body">
-                            <h3 class="uk-card-title">Joshua</h3>
+                            <h3 id="joshua-name" class="uk-card-title">Joshua</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
@@ -141,9 +141,10 @@
     </div>
 
     <!-- WEDDING DETAILS -->
-    <section class="uk-container uk-text-center" uk-grid>
-    <!-- <div class="uk-container">  -->
-      <h1 class="uk-width-1-1">The Wedding</h1>
+    <section class="uk-container uk-text-center">
+      <h1>The Wedding</h1>
+      <div class="uk-container" uk-grid> 
+
       <h2 class="uk-width-1-3"uk-scrollspy="cls: uk-animation-slide-left; repeat: true">WHEN</h2>
       <h2 class="uk-width-1-3" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">------------</h2>
       <div class="uk-width-1-3" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
@@ -165,15 +166,14 @@
       <h2 class="uk-width-1-3"uk-scrollspy="cls: uk-animation-slide-left; repeat: true">ATTIRE</h2>
       <h2 class="uk-width-1-3" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">------------</h2>
       <p class="uk-width-1-3" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">Please wear semi-formal attire. The wedding will be and reception will be indoors with plenty of sweaty dancing at the reception. Dress accordingly.</p>
+    </div>
 
-
-    <!-- </div> -->
     </section>
 
      <!-- ////COLOR BLOCK//// -->
-     <div id="test-color" class="test-color uk-height-large uk-overflow-hidden uk-flex uk-flex-top" uk-parallax="background-color: #EBDCDC,#D5E0C8; viewport: 0.5">
+    <div id="test-color" class="test-color uk-height-large uk-overflow-hidden uk-flex uk-flex-top" uk-parallax="background-color: #EBDCDC,#D5E0C8; viewport: 0.5">
     
-      </div>
+    </div>
 
 
     <!-- OUR STORY -->
@@ -191,37 +191,39 @@
       <!-- /////BRIDESMAIDS///// -->
       
       <!-- /////ASHLEY MATRON OF HONOR///// -->
-        <div class="uk-width-1-1" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
-            <div class="uk-position-center-left maid-of-honor uk-inline">
-                <img id="bridalparty-img" src="./assets/images/test-2.jpg">
-            </div>
-                <h2 id="ashley-name" class="uk-position-bottom-left">ASHELY </h2>
-                <h2 id="ashley-last" class="uk-position-bottom-left">gillogly</h2>
+      <section class="uk-child-width-1-2@m uk-grid-large" uk-grid>
+            <div >
+                <div>
+                    <div class="uk-card uk-card-hover" uk-scrollspy="cls: uk-animation-slide-left">
+                        <div class="uk-card-media-top">
+                            <img class="uk-border-circle" src="./assets/images/test.jpg" alt="" uk-img>
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 id="tylena-name" class="uk-card-title">Sarah</h3>
+                            <h4>Matron of Honor</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div>
+                  <div>
+                      <div class="uk-card uk-card-hover" uk-scrollspy="cls: uk-animation-slide-right">
+                          <div class="uk-card-media-top">
+                              <img class="uk-border-circle" src="./assets/images/test.jpg" alt="" uk-img>
+                          </div>
+                          <div class="uk-card-body">
+                              <h3 id="joshua-name" class="uk-card-title">Ashley</h3>
+                              <h4>Matron of Honor</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
          
-            
-            <h2 >------------</h2>
-          
-            <h2 >matron of honor</h2>
-           
-              <p id="ashley-p" class="uk-position-center-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil fugiat, hic dolores aliquid laborum autem aut dolore similique optio id assumenda facilis quis rem suscipit placeat facere ea error.</p>
-        </div>
-       
-    
-          
-          <!-- /////SARAH MATRON OF HONOR///// -->
-        <div class="uk-width-1-1" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
-          <div class="uk-width-1-2 uk-position-center-left">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil fugiat, hic dolores aliquid laborum autem aut dolore similique optio id assumenda facilis quis rem suscipit placeat facere ea error.</p>
-          </div>
-             
-             <h2>------------</h2>
-             <h2 >matron of honor</h2>
-            <h2 class="uk-position-bottom-right">SARAH</h2>
-            <h2 class="uk-position-bottom-right">wittkamper</h2>
-            <div class="uk-width-1-2 uk-position-center-right maid-of-honor">
-                <img id="bridalparty-img" src="./assets/images/test-2.jpg">
-            </div>
-          </div>
+          <!-- <img data-src="./assets/images/test.jpg" uk-img>
+          <img data-src="./assets/images/test.jpg" uk-img> -->
+        </section>
 
           <!-- /////ROW ONE BRIDESMAIDS///// -->
           <div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-flex-center" uk-grid>
@@ -273,7 +275,7 @@
 <h2 class="uk-width-1-3" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">------------</h2>
 <div class="uk-width-1-3 maid-of-honor" uk-scrollspy="cls: uk-animation-slide-bottom; repeat: true">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nihil fugiat, hic dolores aliquid laborum autem aut dolore similique optio id assumenda facilis quis rem suscipit placeat facere ea error.</p>
-  <img id="bridalparty-img" src="./assets/images/test-2.jpg">
+  <img class="uk-border-circle" id="bridalparty-img" src="./assets/images/test-2.jpg">
 </div>
 
   
@@ -326,23 +328,27 @@
 </section>
 
 <!-- /////REGISTRY///// -->
-<section>
+<section class="uk-text-center">
 <h1>Registry</h1>
+<div class="uk-container"></div>
 </section>
 
 <!-- /////ACCOMODATIONS///// -->
-<section>
+<section class="uk-text-center">
   <h1>Accomodations</h1>
 </section>
 
 <!-- /////COUNTDOWN///// -->
-<section>
-    <div class="countdown" data-date="15-6-2019" data-time="12:00">
-        <div class="day"><span class="num"></span><span class="word"></span></div>
-        <div class="hour"><span class="num"></span><span class="word"></span></div>
-        <div class="min"><span class="num"></span><span class="word"></span></div>
-        <div class="sec"><span class="num"></span><span class="word"></span></div>
-      </div>
+<section class="uk-text-center">
+   
+            <div class="countdown" data-date="15-6-2019" data-time="12:00">
+                    <div class="day"><span class="num"></span><span class="word"></span></div>
+                    <div class="hour"><span class="num"></span><span class="word"></span></div>
+                    <div class="min"><span class="num"></span><span class="word"></span></div>
+                    <div class="sec"><span class="num"></span><span class="word"></span></div>
+                  </div>
+
+    
 </section>
 
 <!-- </div> -->
