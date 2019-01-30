@@ -34,17 +34,17 @@ p {
   font-family: "Thasadith", sans-serif;
 }
 
-.maid-of-honor {
+/* .maid-of-honor {
   width: 20em;
   height: 20em;
   overflow: hidden;
   border-radius: 50%;
   z-index: -100;
-}
+} */
 
-#bridalparty-img {
+/* #bridalparty-img {
     width: auto; height: 100%;
-}
+} */
 
 #ashley-name {
   bottom: -1em;
@@ -56,6 +56,11 @@ p {
 }
 #ashley-p {
   margin-left: 30em;
+}
+
+#jake-img {
+  height: 15em;
+  width: 15em;
 }
 
 /* COUNTDOWN  */
