@@ -11,7 +11,18 @@ a,
 
 #thecouple {
   margin: .8em;
+  /* border-bottom: black 1px; */
 }
+
+/* #title-color-block {
+  background-color: #D5E0C8;
+  height: 1em;
+  width: 3em;
+  position: absolute;
+  bottom: .3rem;
+  left: 5em;
+  z-index: -2;
+} */
 
 .thecouple {
   margin-bottom: .8em;
