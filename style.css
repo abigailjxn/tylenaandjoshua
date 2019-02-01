@@ -9,6 +9,21 @@ a,
   font-style: normal;
 }
 
+#hero {
+  padding-bottom: 1em;
+  /* font-size: 50px; */
+}
+
+#nashville, #june15 {
+  font-size: 2em;
+}
+
+
+#june15 {
+  margin-top: 0px;
+}
+
+
 #thecouple {
   margin: .8em;
   /* border-bottom: black 1px; */
@@ -28,9 +43,9 @@ a,
   margin-bottom: .8em;
 }
 
-#tylenaandjoshua {
+/* #tylenaandjoshua {
   font-size: 3em;
-}
+} */
 
 #hero-location {
   margin: -.4em;
