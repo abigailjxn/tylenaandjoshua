@@ -9,6 +9,18 @@ a,
   font-style: normal;
 }
 
+h1, h2 {
+  font-size: 4em;
+};
+
+h3, h4 {
+  font-size: 3em;
+}
+p {
+  font-family: "Thasadith", sans-serif;
+  text-align: justify;
+}
+
 #hero {
   padding-bottom: 1em;
   /* font-size: 50px; */
@@ -43,6 +55,11 @@ a,
   margin-bottom: .8em;
 }
 
+.thecouple p {
+  text-align: center;
+  padding-bottom: 5em;
+}
+
 /* #tylenaandjoshua {
   font-size: 3em;
 } */
@@ -56,21 +73,18 @@ a,
   font-family: "Thasadith", sans-serif;
 }
 
-h1, h2 {
-  font-size: 4em;
-}
 
-h3, h4 {
-  font-size: 3em;
-}
 
 #tylena-name, #joshua-name {
   font-size: 4em;
 }
 
-p {
-  font-family: "Thasadith", sans-serif;
+
+
+.thewedding p {
+  text-align: center;
 }
+
 
 /* .maid-of-honor {
   width: 20em;
