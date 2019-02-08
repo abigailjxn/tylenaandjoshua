@@ -4,8 +4,8 @@ h3,
 h4,
 a,
 .countdown {
-  font-family: whitman-display-compressed, serif;
-  font-weight: 300;
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -97,6 +97,10 @@ p {
   margin-left: 30em;
 }
 
+.matronofhonor h4, .bestman h4 {
+  font-size: 3em;
+}
+
 #jake-img {
   height: 30em;
   width: 30em;
@@ -109,6 +113,10 @@ hr {
 
 #registry p {
   text-align: center;
+}
+
+.whynashville h3 {
+  font-size: 3em;
 }
 
 /* COUNTDOWN  */
