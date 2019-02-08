@@ -97,10 +97,10 @@ p {
   margin-left: 30em;
 }
 
-/* #jake-img {
-  height: 18em;
-  width: 18em;
-} */
+#jake-img {
+  height: 30em;
+  width: 30em;
+}
 
 hr {
   margin-top: 40px;
