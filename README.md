@@ -5,3 +5,5 @@ Wedding Website for Tylena and Joshua
 - UI Kit
 - Javascript / JQuery
 - Countdown by https://github.com/fionnachan/countdownJS////
+
+Deployed at: https://anewpairofjeans.com/
