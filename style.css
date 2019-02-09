@@ -21,6 +21,11 @@ p {
   text-align: justify;
 }
 
+#navhamburger {
+  z-index: 100;
+  padding: 2em;
+}
+
 #hero {
   padding-bottom: 1em;
   /* font-size: 50px; */
