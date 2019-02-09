@@ -5,11 +5,4 @@ let rsvpModal = window.typeformEmbed.makePopup("https://abigailjackson.typeform.
         hideHeaders: true,
         hideFooter: true
     });
-
-    // const sticky = UIkit.sticky('#navhamburger', {
-    //     offset: 50,
-    //     top: 100
-    //   });
-
-    //   sticky;
  
