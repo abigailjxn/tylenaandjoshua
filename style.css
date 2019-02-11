@@ -21,6 +21,10 @@ p {
   text-align: justify;
 }
 
+.uk-container::before {
+  display: none;
+}
+
 #navhamburger {
   z-index: 100;
   padding: 2em;
