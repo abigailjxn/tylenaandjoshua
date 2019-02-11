@@ -171,3 +171,12 @@ hr {
   display: block;
   font-size: 20px;
 }
+
+footer {
+  font-family: "Thasadith", sans-serif;
+}
+
+footer a {
+  font-family: "Thasadith", sans-serif;
+  color: #EBDCDC;
+}
