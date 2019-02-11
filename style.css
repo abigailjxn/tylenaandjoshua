@@ -138,6 +138,15 @@ hr {
   font-size: 3em;
 }
 
+.whynashville h4 {
+  font-size: 2em;
+  margin-top: -.75em;
+}
+
+.whynashville a p{
+  color: #c3b7b7;
+}
+
 /* COUNTDOWN  */
 /* /////Countdown JS by https://github.com/fionnachan/countdownJS///// */
 .countdown {
@@ -178,5 +187,5 @@ footer {
 
 footer a {
   font-family: "Thasadith", sans-serif;
-  color: #EBDCDC;
+  color: #c3b7b7;
 }
