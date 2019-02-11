@@ -36,14 +36,18 @@ p {
 }
 
 #nashville, #june15 {
-  font-size: 2em;
+  font-size: 1em;
+  letter-spacing: 3px;
+  font-family: "Thasadith", sans-serif;
 }
-
 
 #june15 {
   margin-top: 0px;
 }
 
+#hero a {
+  font-family: "Thasadith", sans-serif;
+}
 
 #thecouple {
   margin: .8em;
